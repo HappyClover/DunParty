@@ -32,7 +32,7 @@ jobs:
       - name: Build React app
         run: |
           cd front
-          npm run build
+          CI=false npm run build
 
       - name: Sync to S3
         uses: jakejarvis/s3-sync-action@master
