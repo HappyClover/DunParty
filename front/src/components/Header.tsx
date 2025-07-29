@@ -62,7 +62,7 @@ const Header: React.FC = () => {
         <Stack direction="row" justify="space-between" align="center">
           {/* 로고 영역 */}
           <Text fontSize="xl" fontWeight="bold" color="blue.500" onClick={() => window.location.href = '/'}>
-            던파티
+            던셈블
           </Text>
 
           {/* 우측 버튼 영역 */}
@@ -79,9 +79,6 @@ const Header: React.FC = () => {
                 <Text>버그 신고</Text>
               </HStack>
             </Button>
-
-            {/* 다크모드 토글 */}
-            <ColorModeButton />
 
             {/* 로그인/사용자 메뉴 */}
             {isLoggedIn && user ? (

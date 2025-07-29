@@ -18,6 +18,8 @@ import Adventure from "./mypages/Adventure";
 import PartyDetail from "./PartyDetail";
 import MyPartyEditor from "./mypages/MyPartyEditor";
 import AdventureDetail from "./mypages/AdventureDetail";
+import neopleapi from '../../src/images/neopleapi_color.png';
+
 // import MyAdventures from './mypages/MyAdventures';
 // import Settings from './mypages/Settings';
 // import Bookmarks from './mypages/Bookmarks';
@@ -179,7 +181,7 @@ const MyPage: React.FC<MyPageProps> = ({ pageType }) => {
                             {/* 최하단 이미지 영역 */}
                             <Box mt="auto" pt={4} paddingX={5}>
                                 <Image
-                                    src="/images/neopleapi_color.png"
+                                    src={neopleapi}
                                     alt="사이드바 이미지"
                                     w="full"
                                     h="auto"
